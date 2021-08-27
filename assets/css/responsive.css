@@ -1,0 +1,198 @@
+@media screen and (max-width: 400px) {
+    header nav h1.brand-name {
+        font-size: 1.15rem;
+    }
+
+    #slider-hero .item .content {
+        text-align: center;
+        width: 100vw;
+        max-width: 100vw;
+    }
+
+    #slider-hero .item .content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .box .box-image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .product {
+        width: calc(50% - 10px) !important;
+        margin: 5px;
+    }
+
+    .person {
+        flex-direction: column;
+    }
+
+    .person .person-photo {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .person .person-data {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .product {
+        width: calc(33.33% - 15px) !important;
+        margin: 7.5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .product .product-image {
+        height: 200px;
+    }
+
+    .slick-arrow {
+        border: none;
+        background: none;
+        padding: 10px;
+        position: absolute;
+        bottom: -50px;
+    }
+
+    .slick-next {
+        right: 0;
+        left: auto;
+    }
+    
+    .slick-prev {
+        left: 0;
+        right: auto;
+    }
+
+    h2.title-main {
+        margin-bottom: 30px;
+    }
+
+    #slider-hero .item .content h2 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+    }
+
+    footer .logo img {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    header nav h1.brand-name {
+        font-size: 1.30rem;
+    }
+
+    .box .box-image {
+        height: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .product .product-image {
+        height: 230px !important;
+    }
+
+    .product .product-details {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #team {
+        margin-bottom: 25px;
+    }
+
+    ul.choose-us-list li:hover{
+        font-size: 1.15rem;
+    }
+
+    .box .box-image .box-title {
+        font-size: 1.15rem;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .box {
+        margin-bottom: 20px;
+    }
+
+    h1.brand-name {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .product {
+        width: calc(25% - 20px) !important;
+        margin: 10px;
+    }
+}    
+
+@media screen and (max-width: 1200px) {
+    .product .product-image {
+        height: 250px;
+    }
+
+    body {
+        position: relative;
+    }
+
+    #pre-header {
+        display: none;
+    }
+
+    span.mobile-menu-trigger {
+        position: absolute;
+        font-size: 1.8rem;
+        right: 25px;
+        top: 9px;
+    }
+
+
+    #mobile-menu {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0,0,0,.75);
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        flex-direction: column;
+        z-index: 100;
+    }
+
+    #mobile-menu .close-mobile-menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    #mobile-menu .mobile-menu-list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    #mobile-menu .mobile-menu-list li a {
+        padding: 10px;
+        color: #fff;
+        font-size: 1.35rem;
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id":1,
+            "name": "Product 1",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 0,
+                "net": 655
+            }
+        },
+        {
+            "id":2,
+            "name": "Product 2",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 775,
+                "net": 980
+            }
+        },
+        {
+            "id":3,
+            "name": "Product 3",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 0,
+                "net": 1999
+            }
+        },
+        {
+            "id":4,
+            "name": "Product 4",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 599,
+                "net": 699
+            }
+        },
+        {
+            "id":5,
+            "name": "Product 5",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 699,
+                "net": 865
+            }
+        },
+        {
+            "id":6,
+            "name": "Product 6",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 0,
+                "net": 990
+            }
+        },
+        {
+            "id":7,
+            "name": "Product 7",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 0,
+                "net": 480
+            }
+        },
+        {
+            "id":8,
+            "name": "Product 8",
+            "image": "http://placehold.it/400x400",
+            "price": {
+                "special": 2299,
+                "net": 2550
+            }
+        }
+    ]
+}
