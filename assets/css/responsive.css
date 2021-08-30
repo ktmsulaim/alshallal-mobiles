@@ -78,6 +78,15 @@
         margin-bottom: 25px;
     }
 
+    .person .person-data .person-name {
+        font-size: .95rem;
+    }
+
+    .person .person-data p {
+        font-size: .80rem;
+        font-weight: 600;
+    }
+
     footer .logo img {
         width: 70px;
         margin-bottom: 10px;
